@@ -1,10 +1,5 @@
 ﻿#include "pch-cpp.hpp"
 
-#ifndef _MSC_VER
-# include <alloca.h>
-#else
-# include <malloc.h>
-#endif
 
 
 
@@ -12,6 +7,8 @@
 
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+struct LayoutNode_tADF081B0F16F76B66459DE38F3AD8EC098F22CBE;
+struct LayoutSize_tA35C1CF14C9C804352EFA70BFBEC54BBAE5C0D0A;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -54,12 +51,16 @@ struct IntPtr_t_StaticFields
 #endif
 
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_m407BCFC1029A4485B7B063BC2F3601968C3BE577(Il2CppChar* ___0_language);
+extern "C" float CDECL ReversePInvokeWrapper_LayoutDelegates_InvokeBaselineFunction_m964C07F9F04D50B3D709ED835CAE6E5557FA9833(LayoutNode_tADF081B0F16F76B66459DE38F3AD8EC098F22CBE* ___0_node, float ___1_width, float ___2_height);
+extern "C" void CDECL ReversePInvokeWrapper_LayoutDelegates_InvokeMeasureFunction_m2809A753DC1B3B71E3979B2FDC1481D17363B801(LayoutNode_tADF081B0F16F76B66459DE38F3AD8EC098F22CBE* ___0_node, float ___1_width, int32_t ___2_widthMode, float ___3_height, int32_t ___4_heightMode, LayoutSize_tA35C1CF14C9C804352EFA70BFBEC54BBAE5C0D0A* ___5_result);
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mF93C3CF6DBEC86E377576D840CAF517CB6E4D7E3(intptr_t ___0_arg);
 
 
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
-const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[2] = 
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[4] = 
 {
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_m407BCFC1029A4485B7B063BC2F3601968C3BE577),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_LayoutDelegates_InvokeBaselineFunction_m964C07F9F04D50B3D709ED835CAE6E5557FA9833),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_LayoutDelegates_InvokeMeasureFunction_m2809A753DC1B3B71E3979B2FDC1481D17363B801),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mF93C3CF6DBEC86E377576D840CAF517CB6E4D7E3),
 };
